@@ -34,7 +34,12 @@ function App() {
       console.log(response.data)
     }).catch((error) => {
       toast(`Oops, city not found!`, {
-        position: "bottom-center"
+        position: "bottom-center",
+        style: {
+          backgroundColor:'transparent',
+          color: 'white'
+        }
+      
       });
     })
     setCity('')
