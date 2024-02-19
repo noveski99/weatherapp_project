@@ -210,7 +210,16 @@ input:focus {
   color: #87CEEB;
 
 }
-
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(209, 197, 197);
+  text-align: center;
+  opacity: 50%;
+  user-select: none;
+}
 @media only screen and (max-width:960px) {
   .App {
     margin: auto;
@@ -223,3 +232,4 @@ input:focus {
 
 
 }
+

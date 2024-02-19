@@ -39,7 +39,6 @@ function App() {
           backgroundColor:'transparent',
           color: 'white'
         }
-      
       });
     })
     setCity('')
@@ -75,7 +74,9 @@ function App() {
         </div>
       </section>
 
-
+<footer className='footer'>
+© 2024 React Weather-App
+</footer>
     </div>
   );
 }
