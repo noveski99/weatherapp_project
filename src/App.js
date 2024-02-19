@@ -75,7 +75,7 @@ function App() {
       </section>
 
 <footer className='footer'>
-© 2024 React Weather-App
+© 2024 React Waily
 </footer>
     </div>
   );
