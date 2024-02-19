@@ -1,0 +1,229 @@
+.App {
+  background-color: #87CEEB;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 25%;
+  height: 90vh;
+  opacity: 80%;
+  border-radius: 1em;
+  border-left:1px solid white;
+  border-right: 1px solid white;
+  opacity:90%;
+}
+
+.header p {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  user-select: none;
+}
+
+.form-wrapper {
+  width: 90%;
+  margin: 0.5rem 0;
+  margin-bottom: 2rem;
+
+}
+
+.form-wrapper form {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.form-wrapper input {
+  width: 80%;
+  padding: 0.4rem;
+  opacity: 70%;
+  border: none;
+  flex-grow: 2;
+  background-color: #87CEEB;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+.form:focus {
+  outline: 1px solid rgb(230, 226, 226);
+
+}
+
+.form-wrapper button {
+  cursor: pointer;
+  appearance: button;
+  border: none;
+  background-color: inherit;
+  color: black;
+  cursor: pointer;
+  height: 30px;
+  line-height: 1.15;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s, box-shadow .08s ease-in;
+  user-select: none;
+  touch-action: manipulation;
+  margin-left: 0.3rem;
+}
+
+.form-wrapper form button:hover {
+  scale: 1.1;
+}
+
+.date {
+  font-weight: 500;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  user-select: none;
+}
+
+.data-container {
+
+  width: 90%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  user-select: none;
+
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  color: black;
+  user-select: none;
+
+}
+
+.second-row {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  color: black;
+  user-select: none;
+
+}
+
+.degrees-container {
+  width: 100%;
+  user-select: none;
+
+}
+
+.degrees {
+  font-size: 6rem;
+  font-weight: bold;
+  padding: 0.3rem;
+  text-align: center;
+  width: 100%;
+  user-select: none;
+
+}
+
+.degrees p {
+  margin: 0;
+  user-select: none;
+}
+
+.city {
+  text-align: center;
+  margin: 0.5rem 0;
+  width: 100%;
+  font-size: 1.4rem;
+  user-select: none;
+}
+
+.city p {
+  margin: 0;
+}
+
+.short-desc {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.wind {
+  font-weight: 500;
+  text-align: center;
+  width: 50%;
+  padding: 1rem;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  user-select: none;
+  background-color: inherit;
+}
+
+
+
+.pressure {
+  font-weight: 500;
+  background-color: white;
+  text-align: center;
+  width: 50%;
+  padding: 1rem;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+  user-select: none;
+  background-color: inherit;
+}
+
+.visibility {
+  font-weight: 500;
+  width: 50%;
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+  border-right: 1px solid gray;
+  user-select: none;
+  background-color: inherit;
+}
+
+.humidity {
+  font-weight: 500;
+  width: 50%;
+  text-align: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  user-select: none;
+  background-color: inherit;
+
+}
+
+
+
+.feels-like {
+  text-align: center;
+  user-select: none;
+}
+
+@media only screen and (max-width:960px) {
+  .App {
+    margin: 0 auto;
+    width: 100%;
+    border-right: none;
+    border-left: none;
+    height: 100vh;
+    border: none;
+    border-radius: 0;
+  }
+
+
+  body {
+    margin-top: 0;
+  }
+}
