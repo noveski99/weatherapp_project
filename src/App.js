@@ -23,10 +23,10 @@ function App() {
   }, [])
   useEffect(() => {
     if (location.latitude !== null && location.longitude !== null) {
-      FetchData(locationURL, setData)
+      FetchData(locationURL, setData);
     }
   }, [location, locationURL])
-
+  
   const handleSubmit = (e) => {
     e.preventDefault()
     axios.get(url).then((response) => {
@@ -43,7 +43,6 @@ function App() {
     })
     setCity('')
   }
-
   return (
     <div className="App">
       <Toaster />
