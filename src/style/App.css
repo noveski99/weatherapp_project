@@ -10,6 +10,7 @@
   box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
   color: rgb(209, 197, 197);
   border-radius: 1.5rem;
+  font-family: Montserrat;
 }
 
 .header p {
@@ -17,12 +18,14 @@
   padding: 0;
   font-size: 2rem;
   user-select: none;
+  
 }
 
 .form-wrapper {
   width: 90%;
   margin: 0.5rem 0;
   margin-bottom: 2rem;
+  font-family: Montserrat;
 
 }
 
@@ -82,6 +85,7 @@ input:focus {
   text-align: center;
   font-size: 1rem;
   user-select: none;
+  
 }
 
 .data-container {
@@ -102,7 +106,7 @@ input:focus {
   font-size: 1.2rem;
   color: black;
   user-select: none;
-
+  font-family: "Heebo", sans-serif;
 }
 
 .second-row {
@@ -112,6 +116,7 @@ input:focus {
   font-size: 1.2rem;
   color: black;
   user-select: none;
+  font-family: "Heebo", sans-serif;
 
 }
 
@@ -152,6 +157,7 @@ input:focus {
   text-align: center;
   font-size: 1.4rem;
   margin-bottom: 1.2rem;
+  font-style: italic;
 }
 
 .wind {
@@ -200,6 +206,7 @@ input:focus {
   user-select: none;
   background-color: inherit;
   color: rgb(209, 197, 197);
+  
 }
 
 
