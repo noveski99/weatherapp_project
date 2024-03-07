@@ -54,7 +54,7 @@ function App() {
       </section>
       <div className='city'><p><MdLocationPin />{data ? <span>{data.name}</span> : null}</p></div>
       <section className='degrees-container'>
-        <div className='degrees'>{data ? <p>{Math.round(data.main.temp)}<RiCelsiusLine /></p> : null}</div>
+        <div className='degrees'>{data ? <p>{Math.round(data.main.temp)}</p> : null}</div>
         <div className='short-desc'>{data ? data.weather[0].main : null}</div>
         <div className='feels-like'>Feels like {Math.round(data ? data.main.feels_like : null)}° </div>
       </section>
